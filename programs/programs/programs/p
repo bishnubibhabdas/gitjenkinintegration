@@ -1,0 +1,4 @@
+rmdir p
+rmdir programs/programs
+mkdir programs
+ls

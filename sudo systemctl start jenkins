@@ -1,0 +1,16 @@
+[0;1;32m●[0m jenkins.service - LSB: Start Jenkins at boot time
+     Loaded: loaded (/etc/init.d/jenkins; generated)
+     Active: [0;1;32mactive (exited)[0m since Wed 2020-12-02 14:42:53 UTC; 50s ago
+       Docs: man:systemd-sysv-generator(8)
+      Tasks: 0 (limit: 1074)
+     Memory: 0B
+     CGroup: /system.slice/jenkins.service
+
+Dec 02 14:42:52 bishnu systemd[1]: Starting LSB: Start Jenkins at boot time...
+Dec 02 14:42:52 bishnu jenkins[6317]: Correct java version found
+Dec 02 14:42:52 bishnu jenkins[6317]:  * Starting Jenkins Automation Server jenkins
+Dec 02 14:42:52 bishnu su[6362]: [0;1;39m[0;1;31m[0;1;39m(to jenkins) root on none[0m
+Dec 02 14:42:52 bishnu su[6362]: pam_unix(su-l:session): session opened for user jenkins by (uid=0)
+Dec 02 14:42:52 bishnu su[6362]: pam_unix(su-l:session): session closed for user jenkins
+Dec 02 14:42:53 bishnu jenkins[6317]:    ...done.
+Dec 02 14:42:53 bishnu systemd[1]: Started LSB: Start Jenkins at boot time.
